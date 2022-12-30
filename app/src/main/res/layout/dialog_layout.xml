@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_background_bottom_sheet_activity"
+    android:orientation="vertical"
+
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.03"
+        android:fontFamily="@font/barlow_medium"
+        android:text="Location"
+        android:textAlignment="center"
+        android:textColor="#999999"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F3F3F3"
+            android:fontFamily="@font/barlow_medium"
+            android:hint="City name"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button8"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Manila, Philippines"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="35°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button81"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Mauritius, Mauritius"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="28°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button82"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Melbourne, Australia"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="16°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button83"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Mexico City, Mexico"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="18°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button84"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Miami, US"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="26°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button85"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Milwaukee, US"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="7°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button86"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Montreal, Canada"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="8°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button87"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Moscow, Russia"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="21°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button88"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Mumbai, India"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="11°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button89"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Munich, Germany"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="35°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button811"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Muscat, Oman	"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView511"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="35°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button8112"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Manila, Philippines"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView512"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="35°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button812"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Manila, Philippines"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView513"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="35°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="35dp">
+
+                <Button
+                    android:id="@+id/button813"
+                    style="@style/Styleforbottomsheetactivity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@color/white"
+                    android:fontFamily="@font/barlow"
+                    android:paddingLeft="0dp"
+                    android:text="Manila, Philippines"
+                    android:textAlignment="viewStart"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/textView5134"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:fontFamily="@font/barlow_light"
+                    android:text="35°C"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
