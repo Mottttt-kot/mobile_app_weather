@@ -45,4 +45,11 @@ dependencies {
     //view
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+    //SwipeDown
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+    //GPS
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+
 }
