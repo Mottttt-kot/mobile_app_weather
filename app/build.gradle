@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.kapt'
 }
 
 android {
@@ -51,5 +52,13 @@ dependencies {
 
     //GPS
     implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+    //Maxi
+    implementation 'com.github.moxy-community:moxy:2.2.2'
+    kapt 'com.github.moxy-community:moxy-compiler:2.2.2'
+    implementation 'com.github.moxy-community:moxy-androidx:2.2.2'
+    implementation 'com.github.moxy-community:moxy-material:2.2.2'
+    implementation 'com.github.moxy-community:moxy-ktx:2.2.2'
+
 
 }
